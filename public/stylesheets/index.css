@@ -1,0 +1,16 @@
+ body {
+    margin: auto 30px;
+    font-family: Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+.table-user {
+    background-color: #4c9e68;
+    padding: 15px;
+  }
+.display-user {
+    background-color: rgba(205, 238, 178, 0.8);
+    border: 2px solid rgba(40, 177, 35, 0.8);
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+  }

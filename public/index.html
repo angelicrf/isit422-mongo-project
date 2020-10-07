@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <h3>Angelique Mongo</h3>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/index.css" />
+  </head>
+
+  <body>
+    <h2>Users from Mongo</h2>
+    <div class="table-user">
+      <div class="display-user">
+        <h3>Display Users</h3>
+        <button type="button" id="get">Show Users</button>
+        <ul id="listUl"></ul>
+      </div>
+
+      <div class="display-user">
+        <h3>Add a new User</h3>
+        <label for="name">name:</label>
+        <input type="text" id="name" name="fname" /><br /><br />
+        <label for="lastname">LastName:</label>
+        <input type="text" id="lastname" name="fname" /><br /><br />
+        <label for="ranknum">RankNum:</label>
+        <input type="text" id="ranknum" name="fname" /><br /><br />
+        <button type="button" id="submit">SEND</button>
+      </div>
+
+      <div class="display-user">
+        <h3>Delete a user</h3>
+        <div>
+          Enter name here: <input type="text" id="deletename" /><br /><br />
+          <button type="button" id="delete">Remove</button><br />
+        </div>
+      </div>
+
+      <div class="display-user">
+        <h3>Users Approuved</h3>
+        <div>
+          Enter name here: <input type="text" id="completedname" /><br /><br />
+          <button type="button" id="completed">Completed</button><br />
+        </div>
+      </div>
+    </div>
+    <script src="/javascripts/index.js"></script>
+  </body>
+</html>
